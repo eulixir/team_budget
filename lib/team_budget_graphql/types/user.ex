@@ -1,4 +1,5 @@
 defmodule TeamBudgetGraphql.Types.User do
+  @moduledoc false
   use Absinthe.Schema.Notation
 
   object :user do
